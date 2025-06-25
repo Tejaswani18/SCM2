@@ -214,7 +214,7 @@ async def schedule_reminder(update: Update, content: str, delay: float):
 
 def main():
     """Run the bot."""
-    application = Application.builder().token("8181677837:AAF79z_HJN8xGH63CPL47-WTmUow_UfbNAo").build()
+    application = Application.builder().token("Your_Bot_Token").build()
 
     application.bot_data["bot"] = AIMessagingBot()
 
