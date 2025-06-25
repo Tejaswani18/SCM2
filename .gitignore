@@ -1,0 +1,16 @@
+# Virtual environment
+env/
+
+# Sensitive files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.log
+*.bak
